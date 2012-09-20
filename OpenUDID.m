@@ -149,8 +149,8 @@ static int const kOpenUDIDRedundancySlots = 100;
 
 #if TARGET_OS_IPHONE
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"6.0")) {
-        _openUDID = [[[UIDevice currentDevice] identifierForA_______] UUIDString];
-# error                                                         ^ read comments above, fix accordingly, and remove this #error line
+        _openUDID = [[[UIDevice currentDevice] identifierForAdvertising] UUIDString];
+
     }
 #endif
     
