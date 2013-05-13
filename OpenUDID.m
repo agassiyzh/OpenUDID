@@ -120,11 +120,6 @@ static int const kOpenUDIDRedundancySlots = 100;
     // August 2011: One day, this may no longer be allowed in iOS. When that is, just comment this line out.
     // March 25th 2012: this day has come, let's remove this "outlawed" call...
     // August 2012: well, perhaps much ado about nothing; in any case WWDC2012 gave us something to work with; read below
-#if TARGET_OS_IPHONE	
-//    if([UIDevice instancesRespondToSelector:@selector(uniqueIdentifier)]){
-//        _openUDID = [[UIDevice currentDevice] uniqueIdentifier];
-//    }
-#endif
     
     //
     // !!!!! IMPORTANT README !!!!!
